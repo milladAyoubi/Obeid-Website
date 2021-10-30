@@ -75,13 +75,13 @@ body {
 .fadeFromRight {
     opacity: 1;
     left: 0;
-    transition: 2.0s ease-in-out;
+    transition: 1.8s ease-in-out;
 }
 
 .fadeFromLeft {
     opacity: 1;
     right: 2rem;
-    transition: 0.8s ease-out;
+    transition: 0.9s ease-out;
 }
 
 .main {
@@ -90,9 +90,16 @@ body {
     padding: 4% 0;
 }
 
-.socialContainer {
+.social {
     position: relative;
-    right: 4%;
+    opacity: 0;
+    top: 2rem;
+}
+
+.fadeFromBottom {
+    opacity: 1;
+    top: 0;
+    transition: 0.2s ease-out;
 }
 
 .socialButton:hover {

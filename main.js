@@ -1,6 +1,7 @@
 var mainText = document.querySelector(".mainText")
 
 
+var social = document.querySelector(".social")
 
 var mainImage = document.querySelector(".mainImage")
 
@@ -9,15 +10,18 @@ var mainImage = document.querySelector(".mainImage")
 
 const onLoad1 = () => {
 
-        setTimeout(function() {
-            mainImage.classList.add("fadeFromRight")
+    setTimeout(function() {
+        mainImage.classList.add("fadeFromRight")
 
-        }, 100);
+    }, 50);
 
 
 
-    }
-    //When Website loads
+}
+
+
+
+//When Website loads
 
 
 const onLoad = () => {
@@ -30,5 +34,17 @@ const onLoad = () => {
 
 
 }
+
+const onLoad2 = () => {
+
+    setTimeout(function() {
+        social.classList.add("fadeFromBottom")
+
+    }, 2600);
+
+
+
+}
 onLoad()
 onLoad1()
+onLoad2()

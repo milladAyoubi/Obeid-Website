@@ -85,9 +85,18 @@ body {
 }
 
 .main {
-    background-color: #111925;
+    background-color: #d6e2f3;
     color: white;
     padding: 4% 0;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #20252b 0%, #151a1f 74%);
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .social {
@@ -127,4 +136,27 @@ footer {
 
 .body_sec {
     margin-left: 20px;
+}
+
+.Info {
+    text-align: center;
+    background-color: #d6e2f3;
+    color: white;
+    padding: 4% 0;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #20252b 0%, #151a1f 74%);
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutImages {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 5rem;
 }

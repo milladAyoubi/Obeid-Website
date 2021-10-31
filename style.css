@@ -64,7 +64,8 @@ body {
     left: 5rem;
     overflow: hidden;
     opacity: 0;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-family: 'Poppins';
 }
 
 .mainImage {
@@ -75,7 +76,16 @@ body {
     position: relative;
     left:5rem;
 }
-
+.subTitle {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0.5rem;
+    border-radius: 2px;
+    
+}
 .fadeFromRight {
     opacity: 1;
     overflow: hidden;
